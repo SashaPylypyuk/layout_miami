@@ -302,6 +302,14 @@
   .section {
     width: 1260px;
     margin: 0 auto; }
+  .navigation {
+    width: 1260px;
+    margin: 0 auto; }
+  .header__text {
+    margin: 0 auto 85px; }
+  .upper-actions {
+    width: 1260px;
+    margin: 0 auto 314px; }
   .footer {
     position: static;
     z-index: 0; } }
