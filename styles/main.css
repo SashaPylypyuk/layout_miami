@@ -130,7 +130,8 @@
     width: calc(35% - 20px); }
 
 .consultation__column {
-  width: 412px; }
+  width: 412px;
+  margin-right: 194px; }
 
 .consultation__row {
   width: 100%;
@@ -299,10 +300,11 @@
 
 @media screen and (min-width: 1500px) {
   .section {
-    padding: 50px 25%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; } }
+    width: 1260px;
+    margin: 0 auto; }
+  .footer {
+    position: static;
+    z-index: 0; } }
 
 @media screen and (max-width: 900px) {
   .section {
@@ -421,6 +423,7 @@
   margin: 0; }
 
 body {
+  background-color: #fff;
   color: #fff;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -428,8 +431,5 @@ body {
   font-size: 12px;
   line-height: 16px;
   text-decoration: none; }
-
-main {
-  background-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
