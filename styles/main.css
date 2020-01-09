@@ -64,11 +64,9 @@
     padding: 7px 20px;
     border-radius: 10px; }
     .navigation__link:hover {
-      color: #9fadc2;
       background: rgba(255, 255, 255, 0.1); }
 
 .active-link {
-  color: #9fadc2;
   background: rgba(255, 255, 255, 0.1); }
 
 .info {
